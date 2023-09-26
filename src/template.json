@@ -1,0 +1,48 @@
+{
+  "Actor": {
+    "types": ["Character"],
+    "templates": {
+      "base": {
+        "HP": {
+          "current": 10,
+          "min": 0,
+          "max": 10
+        },
+        "speed": 10,
+        "biography": ""
+      }
+    },
+    "PC": {
+      "templates": ["base"],
+      "currencies": {
+        "money": 0,
+        "xp": 0
+      }
+    }
+  },
+  "Item": {
+    "types": ["attribute", "gift", "trinket"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "attribute": {
+      "templates": ["base"],
+      "color": "0x445566",
+      "colorName": "Test Color",
+      "bonus": 0,
+      "size": 6,
+      "locked": false,
+      "wounded": false
+    },
+    "gift": {
+      "templates": ["base"],
+      "ranks": [],
+      "current_rank": 1
+    },
+    "trinket": {
+      "templates": ["base"]
+    }
+  }
+}
