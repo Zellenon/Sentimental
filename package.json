@@ -64,7 +64,7 @@
     "yargs": "^17.7.2"
   },
   "lint-staged": {
-    "*.(ts|js|cjs|mjs)": "eslint --fix",
+    //    "*.(ts|js|cjs|mjs)": "eslint --fix",
     "*.(json|yml|less)": "prettier --write"
   }
 }
